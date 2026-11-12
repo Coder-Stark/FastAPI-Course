@@ -1,0 +1,12 @@
+MIGRATION PROJECT AND RUN THE PROJECT
+
+1. create requirements.txt file  (it will give dependencies packages list with versions)
+-> pip freeze > requirements.txt
+
+2. move created file into root folder
+
+3. if u running different version
+-> py -3.12 -m venv myenv312
+-> myenv(backslash)Scripts(backslash)activate
+-> pip install -r requirements.txt
+-> uvicorn app:app --reload
