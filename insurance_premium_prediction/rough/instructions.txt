@@ -5,8 +5,26 @@ MIGRATION PROJECT AND RUN THE PROJECT
 
 2. move created file into root folder
 
+----------------From here we have to start--------------------------------------------------------------------------------
+
 3. if u running different version
 -> py -3.12 -m venv myenv312
 -> myenv(backslash)Scripts(backslash)activate
 -> pip install -r requirements.txt
 -> uvicorn app:app --reload
+
+
+4. Improvements
+1. seperate out the project 
+2. handle case sensitivity of city (field validator)
+3. add endpoint -> 
+    a. home 
+    b. health
+4. add model version
+5. seperation of logic ->
+    a. Pydantic model
+    b. City tier
+    c. ML logic
+6. Try catch
+##7. Add confidence score
+##8. Response Model
